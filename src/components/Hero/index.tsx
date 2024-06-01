@@ -11,14 +11,16 @@ const Hero = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
-                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  Free and Open-Source Next.js Template for Startup & SaaS
+                <h1 className="mb-5 bg-gradient-to-b from-cyan-700 to-blue-400 text-3xl font-bold leading-tight dark:from-cyan-300 dark:to-blue-300 sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
+                  Introducing nebulAssistant - Your Personal Chatbot Assistant
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                  Startup is free Next.js template for startups and SaaS
-                  business websites comes with all the essential pages,
-                  components, and sections you need to launch a complete
-                  business website, built-with Next 13.x and Tailwind CSS.
+                  nebulAssistant is a free and versatile chatbot assistant,
+                  designed as a Chrome extension, that can be integrated into
+                  any website. Its built with React.js, Bootstrap for the
+                  Chrome extension, and FastAPI for the backend, providing a
+                  seamless and user-friendly experience for all your website
+                  visitors.
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link

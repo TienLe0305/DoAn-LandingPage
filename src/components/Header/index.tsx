@@ -43,7 +43,7 @@ const Header = () => {
       <header
         className={`header inset-x-0 top-0 z-40 mx-auto flex w-full items-center ${
           sticky
-            ? "fixed top-4 z-[9999] !w-2/5 rounded-full bg-white bg-opacity-80 shadow-sticky backdrop-blur-sm !transition-all !duration-500 dark:bg-gray-dark dark:shadow-sticky-dark"
+            ? "fixed top-4 z-[9999] !w-1/3 rounded-full bg-white bg-opacity-80 shadow-sticky backdrop-blur-sm !transition-all !duration-500 dark:bg-gray-dark dark:shadow-sticky-dark"
             : "absolute bg-transparent duration-500"
         }`}
       >
@@ -64,9 +64,8 @@ const Header = () => {
                     alt="logo"
                     width={40}
                     height={40}
-                    className="hidden dark:block"
                   />
-                  <h1 className={`text-2xl ${sticky ? "hidden" : ""}`}>
+                  <h1 className={`text-2xl font-bold bg-gradient-to-b from-black to-gray-600 dark:from-white dark:to-gray-700 ${sticky ? "hidden" : ""}`}>
                     nebulAsisstant
                   </h1>
                 </div>
