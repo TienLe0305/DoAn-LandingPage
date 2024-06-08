@@ -1,75 +1,73 @@
-import Image from "next/image";
-import SectionTitle from "../Common/SectionTitle";
-
-const checkIcon = (
-  <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
-    <path d="M5.8535 12.6631C5.65824 12.8584 5.34166 12.8584 5.1464 12.6631L0.678505 8.1952C0.483242 7.99994 0.483242 7.68336 0.678505 7.4881L2.32921 5.83739C2.52467 5.64193 2.84166 5.64216 3.03684 5.83791L5.14622 7.95354C5.34147 8.14936 5.65859 8.14952 5.85403 7.95388L13.3797 0.420561C13.575 0.22513 13.8917 0.225051 14.087 0.420383L15.7381 2.07143C15.9333 2.26669 15.9333 2.58327 15.7381 2.77854L5.8535 12.6631Z" />
-  </svg>
-);
-
+import './styles.css'
 const AboutSectionOne = () => {
-  const List = ({ text }) => (
-    <p className="mb-5 flex items-center text-lg font-medium text-body-color">
-      <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
-        {checkIcon}
-      </span>
-      {text}
-    </p>
-  );
-
-  return (
-    <section id="about" className="pt-16 md:pt-20 lg:pt-28">
-      <div className="container">
-        <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
-          <div className="-mx-4 flex flex-wrap items-center">
-            <div className="w-full px-4 lg:w-1/2">
-              <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
-                mb="44px"
-              />
-
-              <div
-                className="mb-12 max-w-[570px] lg:mb-0"
-                data-wow-delay=".15s"
-              >
-                <div className="mx-[-12px] flex flex-wrap">
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
-                  </div>
-
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
-                  </div>
-                </div>
+  return <section id="about">
+    <div className="section-how-it-works">
+  <div className="padding-global">
+    <div className="container-large flex-align-center">
+      <div className="how-it-works-content slide-in" style={{ opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
+        <div className="how-it-works-heading-wrapper">
+          <div className="subtitle-large text-color-purple text-align-center">How it works</div>
+          <div className="spacer-20"></div>
+          <h2 className="text-align-center width-custom tracking-[-2.4px] text-6xl font-medium leading-[1.14] my-0">Fit Continue into your dev environment</h2>
+        </div>
+        <div className="spacer-58"></div>
+        <div className="h-i-w-card-wrapper max-width-736 is-relative">
+          <div className="how-it-works-card is-gradient-wrapper">
+            <div className="how-it-works-card is-gradient" style={{ willChange: 'transform', transform: 'translate3d(0px, 0px, 0px) scale3d(0.9, 0.9, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
+              <div className="card-img-wrapper"></div>
+              <div className="how-it-works-card-content-wrapper">
+                <h5 className="txt-black-080">Any models</h5>
+                <div className="spacer-56"></div>
+                <div className="h-i-w-buttons-wrappers"></div>
               </div>
             </div>
-
-            <div className="w-full px-4 lg:w-1/2">
-              <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
-                <Image
-                  src="/images/about/about-image.svg"
-                  alt="about-image"
-                  fill
-                  className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
-                />
-                <Image
-                  src="/images/about/about-image-dark.svg"
-                  alt="about-image"
-                  fill
-                  className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
-                />
+          </div>
+          <div className="how-it-works-card is-gradient-wrapper is-2">
+            <div className="how-it-works-card is-gradient is-transparent-none" style={{ willChange: 'transform', transform: 'translate3d(0px, 0px, 0px) scale3d(0.95, 0.95, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
+              <div className="card-img-wrapper"></div>
+              <div className="how-it-works-card-content-wrapper is-center">
+                <div className="div-block-19">
+                  <h5 className="txt-black-080">Any context</h5>
+                </div>
+                <div className="spacer-56"></div>
+                <div className="h-i-w-buttons-wrappers"></div>
+              </div>
+            </div>
+          </div>
+          <div className="how-it-works-card is-gradient-wrapper is-3">
+            <div className="how-it-works-card is-gradient is-transparent-none">
+              <div className="card-img-wrapper"></div>
+              <div className="how-it-works-card-content-wrapper">
+                <h5 className="txt-black-080">Any components</h5>
+                <div className="spacer-56"></div>
+                <div className="h-i-w-buttons-wrappers"></div>
               </div>
             </div>
           </div>
         </div>
+        <div className="button is-icon is-secondary is-sticky w-inline-block">
+          <div className="text-size-regular text-weight-semibold txt-color-purple500 is-subtitle14">Read more in the docs</div>
+          <div className="icon-flex w-embed">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+              <g clipPath="url(#clip0_1132_2133)">
+                <path d="M4.98047 11.9805H19.9705" stroke="#7073D9" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path>
+                <path d="M13.9824 5.98828L20.0194 12.0003L13.9824 18.0123" stroke="#7073D9" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path>
+              </g>
+              <defs>
+                <clipPath id="clip0_1132_2133">
+                  <rect width="24" height="24" fill="white" transform="translate(0.5)"></rect>
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+        </div>
       </div>
-    </section>
-  );
+    </div>
+  </div>
+</div>
+
+
+  </section>;
 };
 
 export default AboutSectionOne;

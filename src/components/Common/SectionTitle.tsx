@@ -17,7 +17,7 @@ const SectionTitle = ({
         className={`w-full ${center ? "mx-auto text-center" : ""}`}
         style={{ maxWidth: width, marginBottom: mb }}
       >
-        <h2 className="bg-gradient-to-b from-cyan-700 to-blue-400 dark:from-cyan-300 dark:to-blue-300 mb-4 text-3xl font-bold !leading-tight sm:text-4xl md:text-[45px]">
+        <h2 className="tracking-[-2.4px] text-6xl font-medium leading-[1.14] my-0" style={{ opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}>
           {title}
         </h2>
         <p className="text-base !leading-relaxed text-body-color md:text-lg">

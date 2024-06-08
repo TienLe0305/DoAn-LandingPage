@@ -20,7 +20,7 @@ const BlogSidebarPage = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 lg:w-8/12">
               <div>
-                <h1 className="mb-8 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
+                <h1 className="mb-8 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight tracking-[-2.88px] text-7xl font-medium leading-[1.14] pb-1">
                   10 amazing sites to download stock photos & digital assets for
                   free
                 </h1>

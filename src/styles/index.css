@@ -6,7 +6,8 @@
 
 @font-face {
   font-family: "CohereText";
-  src: url("https://cohere-readme-docs.netlify.app/fonts/CohereText-Regular.woff2")
+  src:
+    url("https://cohere-readme-docs.netlify.app/fonts/CohereText-Regular.woff2")
       format("woff2"),
     url("https://cohere-readme-docs.netlify.app/fonts/CohereText-Regular.woff")
       format("woff");
@@ -17,7 +18,8 @@
 
 @font-face {
   font-family: "CohereText";
-  src: url("https://cohere-readme-docs.netlify.app/fonts/CohereVariable.woff2")
+  src:
+    url("https://cohere-readme-docs.netlify.app/fonts/CohereVariable.woff2")
       format("woff2"),
     url("https://cohere-readme-docs.netlify.app/fonts/CohereVariable.woff")
       format("woff");
@@ -28,7 +30,8 @@
 
 @font-face {
   font-family: "CohereHeadline";
-  src: url("https://cohere-readme-docs.netlify.app/fonts/CohereHeadline-Regular.woff2")
+  src:
+    url("https://cohere-readme-docs.netlify.app/fonts/CohereHeadline-Regular.woff2")
       format("woff2"),
     url("https://cohere-readme-docs.netlify.app/fonts/CohereHeadline-Regular.woff")
       format("woff");
@@ -39,7 +42,8 @@
 
 @font-face {
   font-family: "CohereHeadline";
-  src: url("https://cohere-readme-docs.netlify.app/fonts/CohereHeadline-Bold.woff2")
+  src:
+    url("https://cohere-readme-docs.netlify.app/fonts/CohereHeadline-Bold.woff2")
       format("woff2"),
     url("https://cohere-readme-docs.netlify.app/fonts/CohereHeadline-Bold.woff")
       format("woff");
@@ -51,13 +55,14 @@
 @layer base {
   body {
     font-family: "CohereText", sans-serif !important;
+    background-color: #F3F3F3;
   }
 
-  h1, h2 {
-    font-family: "CohereHeadline", sans-serif !important;
+  h1, h2, h3 {
+    background: linear-gradient(to bottom, #000, #9C9C9C);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-  }
+}
 }
 
 @layer components {

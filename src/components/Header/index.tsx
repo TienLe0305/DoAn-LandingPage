@@ -65,7 +65,7 @@ const Header = () => {
                     width={40}
                     height={40}
                   />
-                  <h1 className={`text-2xl font-bold bg-gradient-to-b from-black to-gray-600 dark:from-white dark:to-gray-700 ${sticky ? "hidden" : ""}`}>
+                  <h1 className={`text-2xl font-bold bg-gradient-to-b from-black to-gray-600 dark:from-white dark:to-gray-700 ${sticky ? "hidden" : ""}`} style={{ fontFamily: "CohereHeadline"}}>
                     nebulAsisstant
                   </h1>
                 </div>

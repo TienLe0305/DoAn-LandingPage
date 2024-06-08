@@ -18,7 +18,7 @@ const BlogDetailsPage = () => {
           <div className="-mx-4 flex flex-wrap justify-center">
             <div className="w-full px-4 lg:w-8/12">
               <div>
-                <h2 className="bg-gradient-to-b from-cyan-700 to-blue-400 dark:from-cyan-300 dark:to-blue-300 mb-8 text-3xl font-bold leading-tight sm:text-4xl sm:leading-tight">
+                <h2 className="tracking-[-2.4px] text-6xl font-medium leading-[1.14] my-0">
                   10 amazing sites to download stock photos & digital assets for
                   free
                 </h2>

@@ -11,7 +11,7 @@ const Contact = () => {
               data-wow-delay=".15s
               "
             >
-              <h2 className="bg-gradient-to-b from-cyan-700 to-blue-400 dark:from-cyan-300 dark:to-blue-300 mb-3 text-2xl font-bold sm:text-3xl lg:text-2xl xl:text-3xl">
+              <h2 className="tracking-[-2.4px] text-6xl font-medium leading-[1.14] my-0">
                 Need Help? Open a Ticket
               </h2>
               <p className="mb-12 text-base font-medium text-body-color">
