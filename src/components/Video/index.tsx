@@ -1,6 +1,6 @@
 "use client";
-import { ParallaxBanner, ParallaxProvider } from "react-scroll-parallax";
 import "./styles.css";
+import Spline from "@splinetool/react-spline";
 
 const Video = () => {
   return (
@@ -26,18 +26,13 @@ const Video = () => {
           </div>
         </div>
       </section>
-      <ParallaxProvider>
         <div className="section-spline-cards">
           <div className="spline-cards-content">
             <div className="spline-wrapper">
-              <ParallaxBanner
-                layers={[
-                  {
-                    image: "/images/video/ext-hi.png",
-                  },
-                ]}
-                className="w-layout-blockcontainer container-continue w-container"
-              />
+              <div className="w-layout-blockcontainer container-continue w-container">
+                {/* <Spline scene="https://prod.spline.design/7mPBaoO1BWp2kDEn/scene.splinecode" /> */}
+                <Spline scene="https://prod.spline.design/vnBC-lYF-EkOv3Xr/scene.splinecode" />
+              </div>
             </div>
           </div>
         </div>
@@ -98,7 +93,6 @@ const Video = () => {
             </div>
           </div>
         </div>
-      </ParallaxProvider>
     </>
   );
 };

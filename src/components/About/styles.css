@@ -184,21 +184,9 @@ img {
   border: 0;
 }
 
-.how-it-works-gradient {
-  opacity: 0.88;
-  max-width: 53rem;
-  margin-bottom: 0;
-  padding-bottom: 0;
-  position: absolute;
-  top: 2.4rem;
-  bottom: auto;
-  left: 0%;
-  right: 0%;
-}
 
 .how-it-works-gradient.is-middle {
   top: auto;
-  bottom: 7px;
 }
 
 .how-it-works-card-content-wrapper {
@@ -216,4 +204,31 @@ img {
 .spacer-56 {
   height: 3.5rem;
   min-height: 3.5rem;
+}
+
+.how-it-works-gradient {
+  opacity: .88;
+  max-width: 50rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  position: absolute;
+  bottom: auto;
+  top: -5%;
+  left: 1%;
+  right: 0%;
+}
+
+.how-it-works-gradient.is-middle {
+  top: auto;
+}
+
+.how-it-works-gradient.is-bottom {
+  top: auto;
+}
+
+@media screen and (min-width: 1440px) {
+  .how-it-works-gradient.is-bottom {
+      padding-bottom: 23px;
+      overflow: visible;
+  }
 }

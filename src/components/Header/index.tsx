@@ -43,7 +43,7 @@ const Header = () => {
       <header
         className={`header inset-x-0 top-0 z-40 mx-auto flex w-full items-center ${
           sticky
-            ? "fixed top-4 z-[9999] !w-1/3 rounded-full bg-white bg-opacity-80 shadow-sticky backdrop-blur-sm !transition-all !duration-500 dark:bg-gray-dark dark:shadow-sticky-dark"
+            ? "fixed top-4 z-[9999] w-1/3 md:w-[40%] rounded-full bg-white bg-opacity-80 shadow-sticky backdrop-blur-sm !transition-all !duration-500 dark:bg-gray-dark dark:shadow-sticky-dark"
             : "absolute bg-transparent duration-500"
         }`}
       >
