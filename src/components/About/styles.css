@@ -191,8 +191,7 @@ img {
 
 .how-it-works-card-content-wrapper {
   flex-flow: column;
-  justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   width: 100%;
   display: flex;
 }
@@ -202,8 +201,8 @@ img {
 }
 
 .spacer-56 {
-  height: 3.5rem;
-  min-height: 3.5rem;
+  height: 2rem;
+  min-height: 2rem;
 }
 
 .how-it-works-gradient {

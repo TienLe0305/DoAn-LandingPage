@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Spline from "@splinetool/react-spline/next";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -16,7 +17,7 @@ const Hero = () => {
           <div className="relative z-[999] -mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
-                <h1 className="mb-5 bg-gradient-to-b from-gray-900 to-gray-400 text-3xl font-bold leading-tight dark:from-gray-400 dark:to-gray-900 sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight tracking-[-2.88px] text-7xl font-medium leading-[1.14] pb-1">
+                <h1 className="tracking-[1px] mb-5 bg-gradient-to-b from-gray-900 to-gray-400 pb-1 text-3xl text-7xl font-bold font-medium leading-[1.14] leading-tight tracking-[-2.88px] dark:from-gray-400 dark:to-gray-900 sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                   Introducing nebulAssistant - Your Personal Chatbot Assistant
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-dark dark:text-white sm:text-lg md:text-xl">
@@ -31,12 +32,28 @@ const Hero = () => {
                     href="https://nextjstemplates.com/templates/saas-starter-startup"
                     className="rounded-2xl bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
-                    🔥 Get Pro
+                    <div className="mr-2 inline-block">
+                      <Image
+                        src="/images/hero/chrome.png"
+                        alt="Image description"
+                        width={24}
+                        height={24}
+                      />
+                    </div>
+                    Try it out
                   </Link>
                   <Link
                     href="https://github.com/TienLe0305/DoAn-FE"
-                    className="inline-block rounded-2xl bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:text-white"
+                    className="inline-block rounded-2xl bg-white px-8 py-4 text-base font-semibold text-black duration-300 ease-in-out"
                   >
+                    <div className="mr-2 inline-block">
+                      <Image
+                        src="/images/hero/github.png"
+                        alt="Image description"
+                        width={24}
+                        height={24}
+                      />
+                    </div>
                     Star on GitHub
                   </Link>
                 </div>

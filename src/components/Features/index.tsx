@@ -8,7 +8,7 @@ const Features = () => {
         <div className="container">
           <SectionTitle
             title="Main Features"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            paragraph="This extension offers numerous valuable features, providing users with a true assistant experience right at their fingertips."
             center
           />
           <div className="transparent">
@@ -18,12 +18,9 @@ const Features = () => {
                   <div className="subtitle-large text-color-purple">01</div>
                 </div>
                 <div>
-                  <h3 className="mb-2 text-4xl font-medium">
-                    Remain in flow while coding
-                  </h3>
+                  <h3 className="mb-2 text-4xl font-medium">Writing support</h3>
                   <p className="text-gray-600">
-                    by removing the barriers that block productivity when
-                    building software
+                    by create quick edits with available options
                   </p>
                 </div>
                 <div className="absolute bottom-auto left-auto right-0 top-0 max-w-[48%]">
@@ -41,12 +38,10 @@ const Features = () => {
                   <div className="subtitle-large text-color-purple">02</div>
                 </div>
                 <div>
-                  <h3 className="mb-2 text-4xl font-medium">
-                    Accelerate development
-                  </h3>
+                  <h3 className="mb-2 text-4xl font-medium">Q&A support</h3>
                   <p className="text-gray-600">
-                    with a plug-and-play system that makes it easy to get
-                    started and integrates with your entire stack
+                    by create conversations with specific prompts, in specified
+                    languages.
                   </p>
                 </div>
                 <div className="absolute bottom-auto left-auto right-0 top-0 max-w-[48%]">
@@ -64,12 +59,10 @@ const Features = () => {
                   <div className="subtitle-large text-color-purple">03</div>
                 </div>
                 <div>
-                  <h3 className="mb-2 text-4xl font-medium">
-                    Become a leader in AI
-                  </h3>
+                  <h3 className="mb-2 text-4xl font-medium">RAG model</h3>
                   <p className="text-gray-600">
-                    by setting up your code assistant to evolve as new
-                    capabilities emerge
+                    applicable for synthesizing website information and reading
+                    files
                   </p>
                 </div>
                 <div className="absolute bottom-auto left-auto right-0 top-0 max-w-[48%]">
