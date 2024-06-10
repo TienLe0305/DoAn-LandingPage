@@ -22,15 +22,16 @@ const Testimonials = () => {
                   <div className="roll-out-content-left">
                     <div className="roll-out-heading-wrapper">
                       <h3>
-                        Roll out Continue
-                        <br />
-                        to your entire organization
+                        Launch Nebula and share it with your friends and family
                       </h3>
                       <div className="spacer-21"></div>
                       <div className="text-size-medium text-color-black070">
-                        See how Continue Enterprise empowers your entire
-                        engineering team to not only use but also improve your
-                        AI software development system
+                        Discover how Nebula can revolutionize your web
+                        experience by providing a seamless, integrated chat bot
+                        for all your queries and data analysis needs. Enhance
+                        your productivity and web usage with this versatile
+                        virtual assistant, and see the transformative impact it
+                        can have on your everyday online activities.
                       </div>
                     </div>
                     <div className="spacer-21"></div>
@@ -40,7 +41,10 @@ const Testimonials = () => {
                   <div className="blob is-home">
                     <Spline
                       scene="https://prod.spline.design/H4tTOmKffGoOUJYB/scene.splinecode"
-                      style={{ width: "800px !important", height: "800px !important" }}
+                      style={{
+                        width: "800px !important",
+                        height: "800px !important",
+                      }}
                     />
                   </div>
                   <div className="shadow"></div>
