@@ -62,7 +62,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 h3 {
-  letter-spacing: -1.92px;
+  /* letter-spacing: -1.92px; */
   margin-top: 0;
   margin-bottom: 0;
   font-size: 3rem;
@@ -320,7 +320,7 @@ img {
 }
 
 .heading-style-h5 {
-  letter-spacing: -1.28px;
+  /* letter-spacing: -1.28px; */
   font-size: 2rem;
   font-weight: 500;
   line-height: 1.25;
