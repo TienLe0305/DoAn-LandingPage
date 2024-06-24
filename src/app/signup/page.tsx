@@ -16,7 +16,7 @@ const SignupPage = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div className="shadow-three mx-auto max-w-[500px] rounded bg-white px-6 py-10 dark:bg-dark sm:p-[60px]">
-                <h3 className="mb-3 text-center text-2xl font-bold text-black dark:text-white sm:text-3xl">
+                <h3 className="mb-3 text-center text-2xl font-bold text-black  sm:text-3xl">
                   Create your account
                 </h3>
                 <p className="mb-11 text-center text-base font-medium text-body-color">
@@ -84,7 +84,7 @@ const SignupPage = () => {
                   <div className="mb-8">
                     <label
                       htmlFor="name"
-                      className="mb-3 block text-sm text-dark dark:text-white"
+                      className="mb-3 block text-sm text-dark "
                     >
                       {" "}
                       Full Name{" "}
@@ -99,7 +99,7 @@ const SignupPage = () => {
                   <div className="mb-8">
                     <label
                       htmlFor="email"
-                      className="mb-3 block text-sm text-dark dark:text-white"
+                      className="mb-3 block text-sm text-dark "
                     >
                       {" "}
                       Work Email{" "}
@@ -114,7 +114,7 @@ const SignupPage = () => {
                   <div className="mb-8">
                     <label
                       htmlFor="password"
-                      className="mb-3 block text-sm text-dark dark:text-white"
+                      className="mb-3 block text-sm text-dark "
                     >
                       {" "}
                       Your Password{" "}

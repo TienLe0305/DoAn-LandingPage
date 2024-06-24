@@ -43,7 +43,7 @@ const Header = () => {
       <header
         className={`header inset-x-0 top-0 z-40 mx-auto flex w-full items-center ${
           sticky
-            ? "fixed top-4 z-[9999] w-1/3 md:w-[40%] rounded-full bg-white bg-opacity-80 shadow-sticky backdrop-blur-sm !transition-all !duration-500 dark:bg-gray-dark dark:shadow-sticky-dark"
+            ? "fixed top-4 z-[9999] w-1/3 md:w-[40%] rounded-full bg-white bg-opacity-80 shadow-sticky backdrop-blur-sm !transition-all !duration-500  dark:shadow-sticky-dark"
             : "absolute bg-transparent duration-500"
         }`}
       >
@@ -111,8 +111,8 @@ const Header = () => {
                             href={menuItem.path}
                             className={`flex py-2 text-base lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${
                               usePathName === menuItem.path
-                                ? "text-primary dark:text-white"
-                                : "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
+                                ? "text-primary "
+                                : "text-dark hover:text-primary /70 dark:hover:text-white"
                             }`}
                           >
                             {menuItem.title}
@@ -121,7 +121,7 @@ const Header = () => {
                           <>
                             <p
                               onClick={() => handleSubmenu(index)}
-                              className="flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:text-primary dark:text-white/70 dark:group-hover:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6"
+                              className="flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:text-primary /70 dark:group-hover:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6"
                             >
                               {menuItem.title}
                               <span className="pl-3">
@@ -144,7 +144,7 @@ const Header = () => {
                                 <Link
                                   href={submenuItem.path}
                                   key={index}
-                                  className="block rounded py-2.5 text-sm text-dark hover:text-primary dark:text-white/70 dark:hover:text-white lg:px-3"
+                                  className="block rounded py-2.5 text-sm text-dark hover:text-primary /70 dark:hover:text-white lg:px-3"
                                 >
                                   {submenuItem.title}
                                 </Link>

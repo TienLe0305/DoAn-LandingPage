@@ -7,7 +7,7 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="relative z-10 overflow-hidden pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
+        className="relative z-10 overflow-hidden pb-16 pt-[120px]  md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
       >
         <div className="container">
           <Spline
@@ -20,7 +20,7 @@ const Hero = () => {
                 <h1 className="tracking-[1px] mb-5 bg-gradient-to-b from-gray-900 to-gray-400 pb-1 text-3xl text-7xl font-bold font-medium leading-[1.14] leading-tight tracking-[-2.88px] dark:from-gray-400 dark:to-gray-900 sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                   Introducing nebulAssistant - Your Personal Chatbot Assistant
                 </h1>
-                <p className="mb-12 text-base !leading-relaxed text-dark dark:text-white sm:text-lg md:text-xl">
+                <p className="mb-12 text-base !leading-relaxed text-dark  sm:text-lg md:text-xl">
                   nebulAssistant is a free and versatile chatbot assistant,
                   designed as a Chrome extension, that can be integrated into
                   any website. Its built with React.js, Bootstrap for the Chrome
@@ -29,7 +29,7 @@ const Hero = () => {
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
-                    href="https://nextjstemplates.com/templates/saas-starter-startup"
+                    href="https://drive.google.com/drive/u/0/folders/1FqZT0L9bMxPjcUvvw5kRZB5OTzyBSZLT"
                     className="rounded-2xl bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
                     <div className="mr-2 inline-block">

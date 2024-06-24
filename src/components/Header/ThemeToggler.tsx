@@ -1,7 +1,7 @@
 const ThemeToggler = () => {
   return (
     <a
-      className="bg-gray-2 dark:bg-dark-bg flex h-9 w-9 cursor-pointer items-center justify-center rounded-full text-black dark:text-white md:h-14 md:w-14"
+      className="bg-gray-2 dark:bg-dark-bg flex h-9 w-9 cursor-pointer items-center justify-center rounded-full text-black  md:h-14 md:w-14"
       href="https://github.com/TienLe0305/DoAn-FE"
     >
       <svg
